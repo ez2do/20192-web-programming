@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>exercise 2.9</title>
+  </head>
+  <body>
+    <form action="/week2/all_type_of_html_inputs.php" method="POST">
+      <label for="fname">Fullname :</label>
+      <input type="text" name="fullname" />
+      <br />
+      <br />
+      <label for="pwd">Password:</label>
+      <input type="password" name="password" />
+      <br />
+      <br />
+      <label>Gender</label> <br />
+      <input type="radio" name="gender" value="male" />
+      <label for="male">Male</label><br />
+      <input type="radio" name="gender" value="female" />
+      <label for="female">Female</label><br />
+      <br />
+      <br />
+      <label>vehicle:</label><br />
+      <input type="checkbox" name="vehicle" value="Bike" />
+      <label for="vehicle1"> I have a bike</label><br />
+      <input type="checkbox" name="vehicle" value="Car" />
+      <label for="vehicle2"> I have a car</label><br />
+      <br />
+      <br />
+      <input type="button" onclick="alert('Hello World!')" value="Click Me!" />
+      <br />
+      <br />
+      <label for="favcolor">Select your favorite color:</label>
+      <input type="color" id="favcolor" name="favcolor" />
+      <br />
+      <br />
+      <label for="birthday">Birthday:</label>
+      <input type="date" name="birthday" />
+      <br />
+      <br />
+      <label for="birthdaytime">Birthday (date and time):</label>
+      <input type="datetime-local" name="birthdaytime" />
+      <br />
+      <br />
+      <label for="bdaymonth">Birthday (month and year):</label>
+      <input type="month" name="bdaymonth" />
+      <br />
+      <br />
+      <label for="email">Enter your email:</label>
+      <input type="email" name="email" />
+      <br />
+      <br />
+      <label for="myfile">Select a file:</label>
+      <input type="file" id="myfile" name="myfile" />
+      <br />
+      <br />
+      <label for="quantity">Quantity (between 1 and 5):</label>
+      <input type="number" name="quantity" min="1" max="5" />
+      <br />
+      <br />
+      <input type="reset" />
+      <br />
+      <br />
+      <input type="submit" value="submit" />
+    </form>
+  </body>
+</html>
