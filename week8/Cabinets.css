@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  margin: 0.25in;
+  border: o.25in solid black;
+  padding: 0.25in;
+  background: url(white-brick.png);
+}
+
+body {
+  background: url(brick.jpg);
+}
+
+.banner {
+  background: url(banner.png);
+  font-size: 50pt;
+}

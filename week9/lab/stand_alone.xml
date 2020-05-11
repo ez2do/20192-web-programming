@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE authors [
+  <!ELEMENT authors (name)*>
+  <!ELEMENT name (firstname, lastname)>
+  <!ELEMENT firstname (#PCDATA)>
+  <!ELEMENT lastname (#PCDATA)>
+]>
+
+<authors>
+  <name>
+    <firstname>Tuan</firstname>
+    <lastname>Anh</lastname>
+  </name>
+  <name>
+    <firstname>Ga</firstname>
+    <lastname>Ren</lastname>
+  </name>
+</authors>

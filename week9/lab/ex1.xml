@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE student [
+  <!ELEMENT student(id, name)>
+  <!ELEMENT name(#PCDATA)>
+  <!ELEMENT id(#PCDATA)>
+]>
+
+<student>
+  <name>Tuan Anh</name>
+  <id>20160244</id>
+</student>
+
+<!DOCTYPE authors SYSTEM "http://example.org/authors.dtd">
+<authors>
+  <name>
+    <firstname>Larry</firstname>
+    <lastname>Brown</lastname>
+  </name>
+  <name>
+    <firstname>Marty</firstname>
+    <lastname>CC</lastname>
+  </name>
+</authors>
+
